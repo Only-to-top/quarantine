@@ -72,3 +72,18 @@
 }
 /* /Карантин */
 ```
+
+
+```css
+/* Карантин */
+.quarantine {
+    text-align: center;
+    color: #559cff;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+    .quarantine br { display: none; }
+}
+/* /Карантин */
+```
