@@ -82,6 +82,12 @@
     padding-top: 20px;
     text-decoration: underline;
 }
+@media only screen and (max-width: 1200px) {
+    .product-page .quarantine {
+        padding-top: 0;
+        margin-top: -8px;
+    }
+}
 @media only screen and (max-width: 768px) {
     .quarantine br { display: none; }
 }
